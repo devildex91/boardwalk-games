@@ -17,9 +17,26 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
 </head>
 <!--classes on body set to work with mt-auto on footer to ensure it always stays at the bottom-->
-<body class = "d-flex flex-column min-vh-100">
+
+<body class="d-flex flex-column min-vh-100">
   <!--navigation-->
-  <div>Navigation</div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/favicon-32x32.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="game-library.html">Games</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
   <!--header with carousel -->
   <header class="container">
     <div class="row">
@@ -42,10 +59,10 @@
   </main>
   <!--footer/ contact section
   mt-auto added to push footer to the bottom of the page-->
-  <footer class = "mt-auto">
+  <footer class="mt-auto">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12">Contact section heading</div>
+        <div class="col-12 "> Contact section heading</div>
         <!--contact-info-->
         <div class="col-12 col-md-6 col-xl-4">Contact info and social links</div>
         <!--opening times-->
