@@ -25,6 +25,15 @@ h3 {
 .sub-heading-color{
     color: var(--highlight-color);
 }
+
+/*navbar*/
+#navbar {
+    background-color: var(--primary-color);
+    
+}
+#navbar .logo {
+    width: 30px;
+}
 /*grid visualisation
 .container, 
 .row {
@@ -32,5 +41,5 @@ h3 {
 }
 .col-12{
     border:2px solid black;
-    background-color:lightgray;*/
-}
+    background-color:lightgray;
+}*/
