@@ -34,6 +34,18 @@ h3 {
 #navbar .logo {
     width: 30px;
 }
+
+
+
+
+
+
+
+
+/*footer*/
+#footer{
+    background-color: var(--primary-color);
+}
 /*grid visualisation
 .container, 
 .row {
