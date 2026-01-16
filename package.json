@@ -1,0 +1,15 @@
+{
+  "name": "boardwalk-games",
+  "version": "1.0.0",
+  "description": "Boardwalk Games website with responsive design and contact form backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "xlsx": "^0.18.5"
+  }
+}

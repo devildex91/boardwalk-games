@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game Library | Boardwalk Games</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">Boardwalk Games</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="section section-light mt-5">
+        <div class="container text-center">
+            <h1 class="fw-bold">Game Library</h1>
+            <p class="text-muted">Explore and reserve your favourite board games</p>
+        </div>
+    </section>
+
+    <!-- GAME CARDS -->
+    <section class="section section-gray animate">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- GAME CARD -->
+                <div class="col-md-4">
+                    <div class="card p-3 h-100 animate">
+                        <h5 class="fw-bold">Catan</h5>
+                        <p>Strategy game of trading and building.</p>
+                        <ul class="small text-muted">
+                            <li>Players: 3–4</li>
+                            <li>Age: 10+</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 h-100 animate">
+                        <h5 class="fw-bold">Ticket to Ride</h5>
+                        <p>Build train routes across the world.</p>
+                        <ul class="small text-muted">
+                            <li>Players: 2–5</li>
+                            <li>Age: 8+</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 h-100 animate">
+                        <h5 class="fw-bold">Carcassonne</h5>
+                        <p>Tile-placement medieval city builder.</p>
+                        <ul class="small text-muted">
+                            <li>Players: 2–5</li>
+                            <li>Age: 7+</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RESERVATION FORM -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card p-4">
+                        <h3 class="mb-3">Reserve a Game</h3>
+
+                        <form action="/reserve" method="POST">
+                            <input required class="form-control mb-3" name="name" placeholder="Your Name">
+
+                            <select required class="form-control mb-3" name="game">
+                                <option value="">Select Game</option>
+                                <option>Catan</option>
+                                <option>Ticket to Ride</option>
+                                <option>Carcassonne</option>
+                            </select>
+
+                            <input required type="date" class="form-control mb-3" name="date">
+
+                            <button class="btn btn-dark w-100">Reserve Game</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container text-center">
+            <p class="small opacity-75 mb-0">© 2026 Boardwalk Games Café</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

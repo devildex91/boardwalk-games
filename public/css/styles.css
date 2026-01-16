@@ -1,0 +1,90 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #111;
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)),
+        url("/images/cafe1.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 0;
+}
+
+.section-light {
+    background: #ffffff;
+}
+
+.section-gray {
+    background: #f1f3f5;
+}
+
+/* CARDS */
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* FORM */
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.btn-dark {
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: #fff;
+    padding: 60px 0;
+}
+
+footer input {
+    max-width: 300px;
+}
+
+/* SCROLL ANIMATIONS */
+.animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.animate-show {
+    opacity: 1;
+    transform: translateY(0);
+}
