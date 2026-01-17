@@ -19,9 +19,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    text-transform: uppercase;
+    
 }
-
+h1, 
+h2 {
+text-transform: uppercase;
+}
+h2 {
+    margin-bottom: 2rem;
+}
 .sub-heading-color{
     color: var(--highlight-color);
 }
@@ -44,10 +50,16 @@ h3 {
     font-family:var(--secondary-font);
 }
 
+/*services*/
+#services .card-footer {
+    font-weight:bold;
+    color:var(--highlight-color);
+    background-color:transparent;
+}
 
-
-
-
+#services .card{
+    margin-bottom:  1.5rem; 
+}
 
 
 
