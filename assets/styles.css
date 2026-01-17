@@ -61,7 +61,11 @@ h2 {
     margin-bottom:  1.5rem; 
 }
 
-
+/*new games*/
+#new-games .card,
+#fav-games .card{
+    border-style: none;
+}
 
 /*footer*/
 #footer{
