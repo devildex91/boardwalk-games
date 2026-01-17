@@ -76,3 +76,35 @@ h2 {
     border:2px solid black;
     background-color:lightgray;
 }*/
+
+
+
+
+/*media for tablets*/
+@media screen and (min-width: 768px){
+    #services .card-body {
+        /*make cards same height for consistency */
+        min-height:191px;
+    } 
+}
+/*large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height:auto;
+    }
+}
+/*xl devices*/
+@media screen and (min-width: 1200px) {
+     /*make cards same height for consistency */
+     #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/*xxl devices*/
+@media screen and (min-width: 1400px) {
+     /*make cards same height for consistency */
+ #services .card-body {
+        min-height:195px;
+    }
+}
