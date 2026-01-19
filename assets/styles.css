@@ -88,6 +88,20 @@ color:white;
 #fav-games .card{
     border-style: none;
 }
+/* Events*/
+
+
+.discount{
+    color:white;
+    background-color: var(--highlight-color);
+}  
+#table th:hover{
+    background-color: var(--secondary-color);
+}
+
+/*reserve*/ 
+
+
 
 /*footer/contact*/
 
@@ -132,12 +146,17 @@ color:white;
     #services .card-body {
         min-height:auto;
     }
+
 }
 /*xl devices*/
 @media screen and (min-width: 1200px) {
      /*make cards same height for consistency */
      #services .card-body {
         min-height: 220px;
+    }
+    
+         
+
     }
 }
 
