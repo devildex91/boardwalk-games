@@ -129,7 +129,7 @@ color:white;
 }
 #contact .social-links i:hover {
     color:var(--secondary-color);
-    transition: color 0.3 ease-in-out ;
+    transition: color 0.3s ease-in-out ;
 }
 #contact .table-dark * {
     background-color: transparent;
@@ -159,7 +159,7 @@ color:white;
          
 
     }
-}
+
 
 /*xxl devices*/
 @media screen and (min-width: 1400px) {
